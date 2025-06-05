@@ -10,23 +10,9 @@ import './components/success-toast.js';
 
 import renderDashboard from './dashboard';
 import renderAddForm from './storyForm';
+import { t } from './locales';
 
-
-const main = document.querySelector('main');
-const navDashboard = document.getElementById('nav-dashboard');
-const navAdd = document.getElementById('nav-add');
-const navButtons = [navDashboard, navAdd];
-
-// Routing function
-function handleRoute() {
-  const hash = window.location.hash.replace('#', '');
-  if (hash === 'add-story') {
-    renderAddForm(main, navAdd, navButtons);
-  } else {
-    // default: dashboard
-    renderDashboard(main, navDashboard, navButtons);
-  }
-}
+window.t = t;
 
 window.addEventListener('DOMContentLoaded', () => {
   const main = document.querySelector('main');
@@ -52,6 +38,11 @@ window.addEventListener('DOMContentLoaded', () => {
   });
 
   window.addEventListener('hashchange', handleRoute);
+
+  document.addEventListener('locale-changed', () => {
+    handleRoute();
+    navbar.requestUpdate?.();
+  });
 
   // First load
   if (!window.location.hash || window.location.hash === '#') {

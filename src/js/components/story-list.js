@@ -1,4 +1,5 @@
 import { LitElement, html } from 'lit';
+import { t } from '../locales';
 import './story-card.js';
 
 class StoryList extends LitElement {
@@ -16,7 +17,7 @@ class StoryList extends LitElement {
         ${this.stories.length === 0
           ? html`
             <div class="col-12">
-              <div class="alert alert-info">Belum ada cerita.</div>
+              <div class="alert alert-info">${t("noStories")}</div>
             </div>
           `
           : this.stories.map(story => html`
