@@ -1,11 +1,5 @@
-import { currentLocale } from './locales';
-
 export function formatDate(dateString) {
-  let locale = currentLocale;
-  if (locale === "ja") locale = "ja-JP";
-  if (locale === "en") locale = "en-US";
-  if (locale === "id") locale = "id-ID";
-  return new Date(dateString).toLocaleDateString(locale, {
+  return new Date(dateString).toLocaleDateString('id-ID', {
     day: 'numeric', month: 'short', year: 'numeric'
   });
 }
