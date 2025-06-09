@@ -1,0 +1,141 @@
+{
+  "error": false,
+  "message": "Stories fetched successfully",
+  "listStory": [
+    {
+      "id": "story-FvU4u0Vp2S3PMsFg",
+      "name": {
+        "id": "Faisal Sulaiman",
+        "en": "Faisal Sulaiman",
+        "ja": "ファイサル・スライマン"
+      },
+      "description": {
+        "id": "Menjelajah hutan tropis di Kalimantan dan menemukan satwa langka.",
+        "en": "Explored the tropical forests in Kalimantan and discovered rare wildlife.",
+        "ja": "カリマンタンの熱帯雨林を探検し、珍しい動物を発見しました。"
+      },
+      "photoUrl": "https://picsum.photos/1200/700?random=1",
+      "createdAt": "2022-01-08T06:34:18.598Z"
+    },
+    {
+      "id": "story-q9anz4avd83ni2r3",
+      "name": {
+        "id": "Alya Jamaluddin",
+        "en": "Alya Jamaluddin",
+        "ja": "アリヤ・ジャマルディン"
+      },
+      "description": {
+        "id": "Mendaki Gunung Rinjani hingga puncak dan menikmati matahari terbit.",
+        "en": "Climbed Mount Rinjani to the summit and enjoyed the sunrise.",
+        "ja": "リンジャニ山の頂上まで登り、日の出を楽しみました。"
+      },
+      "photoUrl": "https://picsum.photos/1200/700?random=2",
+      "createdAt": "2022-01-08T06:34:18.598Z"
+    },
+    {
+      "id": "story-vd83nqai2r39anz4",
+      "name": {
+        "id": "Vina Indah",
+        "en": "Vina Indah",
+        "ja": "ヴィナ・インダ"
+      },
+      "description": {
+        "id": "Mengamati migrasi burung di kawasan rawa-rawa Sumatera.",
+        "en": "Observed bird migration in the wetlands of Sumatra.",
+        "ja": "スマトラの湿地帯で渡り鳥の移動を観察しました。"
+      },
+      "photoUrl": "https://picsum.photos/1200/700?random=3",
+      "createdAt": "2022-01-08T06:34:18.598Z"
+    },
+    {
+      "id": "story-0Vp2S3PMsFgFvU4u",
+      "name": {
+        "id": "Cinta Nur",
+        "en": "Cinta Nur",
+        "ja": "チンタ・ヌール"
+      },
+      "description": {
+        "id": "Menyusuri sungai Mahakam menggunakan perahu bersama penduduk lokal.",
+        "en": "Traveled along the Mahakam river by boat with local residents.",
+        "ja": "現地の人々と一緒にボートでマハカム川を巡りました。"
+      },
+      "photoUrl": "https://picsum.photos/1200/700?random=4",
+      "createdAt": "2022-01-08T06:34:18.598Z"
+    },
+    {
+      "id": "story-0VPMsFgFp2S3vU4u",
+      "name": {
+        "id": "Eka Kasih",
+        "en": "Eka Kasih",
+        "ja": "エカ・カシ"
+      },
+      "description": {
+        "id": "Bercamping di lereng Gunung Bromo dan membuat api unggun.",
+        "en": "Camping on the slopes of Mount Bromo and making a bonfire.",
+        "ja": "ブロモ山の斜面でキャンプし、たき火をしました。"
+      },
+      "photoUrl": "https://picsum.photos/1200/700?random=5",
+      "createdAt": "2022-01-08T06:34:18.598Z"
+    },
+    {
+      "id": "story-usFgFp20VPMS3vU4",
+      "name": {
+        "id": "Bulan Jamilah",
+        "en": "Bulan Jamilah",
+        "ja": "ブラン・ジャミラ"
+      },
+      "description": {
+        "id": "Mengabadikan keindahan bunga Rafflesia di hutan Sumatera.",
+        "en": "Captured the beauty of Rafflesia flowers in the forests of Sumatra.",
+        "ja": "スマトラの森でラフレシアの美しさを撮影しました。"
+      },
+      "photoUrl": "https://picsum.photos/1200/700?random=6",
+      "createdAt": "2022-01-08T06:34:18.598Z"
+    },
+    {
+      "id": "story-gFp20VPMS3vU4usF",
+      "name": {
+        "id": "Nurul Tirta",
+        "en": "Nurul Tirta",
+        "ja": "ヌルル・ティルタ"
+      },
+      "description": {
+        "id": "Menyelam di perairan Raja Ampat dan melihat terumbu karang yang indah.",
+        "en": "Dived in the waters of Raja Ampat and saw beautiful coral reefs.",
+        "ja": "ラジャ・アンパットの海でダイビングし、美しいサンゴ礁を見ました。"
+      },
+      "photoUrl": "https://picsum.photos/1200/700?random=7",
+      "createdAt": "2022-01-08T06:34:18.598Z"
+    },
+    {
+      "id": "story-gFpsF20VPMS3vU4u",
+      "name": {
+        "id": "Wahyu Cahya",
+        "en": "Wahyu Cahya",
+        "ja": "ワフユ・チャヤ"
+      },
+      "description": {
+        "id": "Berpetualang di Taman Nasional Komodo dan melihat komodo langsung.",
+        "en": "Adventured in Komodo National Park and saw real Komodo dragons.",
+        "ja": "コモド国立公園で冒険し、実際のコモドドラゴンを見ました。"
+      },
+      "photoUrl": "https://picsum.photos/1200/700?random=8",
+      "createdAt": "2022-01-08T06:34:18.598Z"
+    },
+    {
+      "id": "story-PFvU4u0Vp2S3MsFg",
+      "name": {
+        "id": "Burhanuddin Danial",
+        "en": "Burhanuddin Danial",
+        "ja": "ブルハヌディン・ダニアル"
+      },
+      "description": {
+        "id": "Menjelajahi gua-gua karst di Sulawesi dan menemukan lukisan prasejarah.",
+        "en": "Explored the karst caves in Sulawesi and found prehistoric paintings.",
+        "ja": "スラウェシのカルスト洞窟を探検し、先史時代の壁画を見つけました。"
+      },
+      "photoUrl": "https://picsum.photos/1200/700?random=9",
+      "createdAt": "2022-01-08T06:34:18.598Z"
+    }
+  ]
+}

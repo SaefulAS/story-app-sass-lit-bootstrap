@@ -1,0 +1,63 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# build output
+/dist
+/build
+/public/build
+/public/dist
+
+# production
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# IDE & editor
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# environment
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Optional: misc
+*.tgz
+*.bak
+*.swp
+
+# Coverage
+coverage
+coverage-*
+
+# webpack cache (if enabled)
+.cache
+webpack-stats.json
+
+# Sass cache
+.sass-cache/
+
+# Others
+*.tmp
+*.log
+*.pid
+
+# Optional: docs/builds
+/docs/dist
+/docs/build
+
+# Optional: test outputs
+test-output/
