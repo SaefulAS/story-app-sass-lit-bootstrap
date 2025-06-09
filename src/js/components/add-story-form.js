@@ -1,6 +1,12 @@
 import { LitElement, html } from 'lit';
+import { msg, updateWhenLocaleChanges } from '@lit/localize';
 
 class AddStoryForm extends LitElement {
+  constructor() {
+    super();
+    updateWhenLocaleChanges(this);
+  }
+
   createRenderRoot() { return this; }
 
   render() {
@@ -9,21 +15,21 @@ class AddStoryForm extends LitElement {
         class="needs-validation d-flex flex-column gap-2 mx-auto mt-3"
         style="max-width: 380px;" novalidate autocomplete="off">
         <div class="mb-3">
-          <label for="name" class="form-label">Nama</label>
-          <input type="text" name="name" id="name" class="form-control" required placeholder="Nama user"/>
-          <div class="invalid-feedback">Nama wajib diisi!</div>
+          <label for="name" class="form-label">${msg('Nama')}</label>
+          <input type="text" name="name" id="name" class="form-control" required placeholder="${msg('Nama user')}"/>
+          <div class="invalid-feedback">${msg('Nama wajib diisi!')}</div>
         </div>
         <div class="mb-3">
-          <label for="photoUrl" class="form-label">URL Foto</label>
+          <label for="photoUrl" class="form-label">${msg('URL Foto')}</label>
           <input type="url" name="photoUrl" id="photoUrl" class="form-control" required placeholder="https://..."/>
-          <div class="invalid-feedback">URL wajib diisi!</div>
+          <div class="invalid-feedback">${msg('URL wajib diisi!')}</div>
         </div>
         <div class="mb-3">
-          <label for="description" class="form-label">Deskripsi</label>
-          <textarea name="description" id="description" class="form-control" rows="3" required placeholder="Tuliskan cerita..."></textarea>
-          <div class="invalid-feedback">Deskripsi wajib diisi!</div>
+          <label for="description" class="form-label">${msg('Deskripsi')}</label>
+          <textarea name="description" id="description" class="form-control" rows="3" required placeholder="${msg('Tuliskan cerita...')}"></textarea>
+          <div class="invalid-feedback">${msg('Deskripsi wajib diisi!')}</div>
         </div>
-        <button type="submit" class="btn btn-primary w-100 mt-3">Tambah Story</button>
+        <button type="submit" class="btn btn-primary w-100 mt-3">${msg('Tambah Story')}</button>
       </form>
     `;
   }

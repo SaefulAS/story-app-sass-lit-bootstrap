@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+<file target-language="ja" source-language="id" original="lit-localize-inputs" datatype="plaintext">
+<body>
+<trans-unit id="sef49b2c68fd1e332">
+  <source>Nama</source>
+  <target>名前</target>
+</trans-unit>
+<trans-unit id="sc2141871a4a3f589">
+  <source>Nama user</source>
+  <target>ユーザー名</target>
+</trans-unit>
+<trans-unit id="s4294f545d2cf5468">
+  <source>Nama wajib diisi!</source>
+  <target>名前は必須です！</target>
+</trans-unit>
+<trans-unit id="se5a66d3911fe2c20">
+  <source>URL Foto</source>
+  <target>写真のURL</target>
+</trans-unit>
+<trans-unit id="s3be56a484f57e60c">
+  <source>URL wajib diisi!</source>
+  <target>URLは必須です！</target>
+</trans-unit>
+<trans-unit id="s772ce5f935d58e37">
+  <source>Deskripsi</source>
+  <target>説明</target>
+</trans-unit>
+<trans-unit id="s47ecf20a148cb92c">
+  <source>Tuliskan cerita...</source>
+  <target>ストーリーを書いてください...</target>
+</trans-unit>
+<trans-unit id="sa77e34a94166a19f">
+  <source>Deskripsi wajib diisi!</source>
+  <target>説明は必須です！</target>
+</trans-unit>
+<trans-unit id="sfae357d460dcc835">
+  <source>Tambah Story</source>
+  <target>ストーリーを追加</target>
+</trans-unit>
+<trans-unit id="sbbc690fcec69d179">
+  <source>Cerita Alam App</source>
+  <target>ネイチャーストーリーアプリ</target>
+</trans-unit>
+<trans-unit id="s7fee95b66225e1fb">
+  <source>Dashboard</source>
+  <target>ダッシュボード</target>
+</trans-unit>
+<trans-unit id="sd9bd5400c653b4b1">
+  <source>Tambah Cerita Alam</source>
+  <target>ネイチャーストーリーを追加</target>
+</trans-unit>
+<trans-unit id="s742f3ef72f38abef">
+  <source>Built with Saeful Abdulloh Sayuti | Cerita Alam App</source>
+  <target>Saeful Abdulloh Sayuti 作 | ネイチャーストーリーアプリ</target>
+</trans-unit>
+<trans-unit id="saca1bb9c1da8e7da">
+  <source>Tambah Cerita</source>
+  <target>ストーリーを追加</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

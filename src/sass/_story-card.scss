@@ -1,10 +1,9 @@
 @use 'variables';
 @use 'mixins';
 
-// Custom card untuk dashboard story
 .story-card {
-  border-radius: variables.$radius; // Custom radius
-  @include mixins.card-shadow;      // Custom shadow
+  border-radius: variables.$radius;
+  @include mixins.card-shadow;
   overflow: hidden;
   transition: transform .15s, box-shadow 0.15s;
 

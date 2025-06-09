@@ -1,3 +1,4 @@
+import { msg } from "@lit/localize";
 import { addStory } from "./data";
 import { setActiveNav } from "./utils";
 
@@ -6,7 +7,7 @@ export default function renderAddForm(main, navAdd, navButtons) {
   main.innerHTML = `
     <section class="section-content position-relative">
       <success-toast style="display:none"></success-toast>
-      <h2 class="mb-4">Tambah Cerita</h2>
+      <h2 class="mb-4">${msg('Tambah Cerita')}</h2>
       <add-story-form></add-story-form>
     </section>
   `;
