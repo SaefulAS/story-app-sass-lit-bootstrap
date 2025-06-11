@@ -7,7 +7,7 @@ export default function renderAddForm(main, navAdd, navButtons) {
   main.innerHTML = `
     <section class="section-content position-relative">
       <success-toast style="display:none"></success-toast>
-      <h2 class="mb-4">${msg('Tambah Cerita')}</h2>
+      <h2 class="mb-4">${msg("Tambah Cerita")}</h2>
       <add-story-form></add-story-form>
     </section>
   `;
@@ -49,7 +49,6 @@ export default function renderAddForm(main, navAdd, navButtons) {
       function (e) {
         e.preventDefault();
         e.stopPropagation();
-
         Array.from(form.elements).forEach((el) => {
           if (el.tagName === "INPUT" || el.tagName === "TEXTAREA") {
             if (el.checkValidity()) {
@@ -64,10 +63,18 @@ export default function renderAddForm(main, navAdd, navButtons) {
 
         if (form.checkValidity()) {
           const fd = new FormData(form);
+
+          const photoFile = fd.get("photo");
+          let photoUrl = "";
+          if (photoFile && photoFile.size > 0) {
+            photoUrl = URL.createObjectURL(photoFile);
+          }
+
           addStory({
             id: `story-${Date.now()}`,
             name: fd.get("name").trim(),
-            photoUrl: fd.get("photoUrl").trim(),
+            photo: photoFile,
+            photoUrl,
             description: fd.get("description").trim(),
             createdAt: new Date().toISOString(),
           });
