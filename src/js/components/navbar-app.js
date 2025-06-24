@@ -12,6 +12,9 @@ class NavbarApp extends LitElement {
   createRenderRoot() { return this; }
 
   render() {
+    const loggedIn = typeof window !== "undefined" && !!localStorage.getItem("access_token");
+    const userName = typeof window !== "undefined" ? localStorage.getItem("user_name") : "";
+
     return html`
       <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow">
         <div class="container">
@@ -26,14 +29,33 @@ class NavbarApp extends LitElement {
           </button>
           <div class="collapse navbar-collapse" id="mainNavbar">
             <div class="ms-auto d-flex gap-2 align-items-center">
-              <button id="nav-dashboard" class="btn btn-outline-light active">${msg('Dashboard')}</button>
-              <button id="nav-add" class="btn btn-light">${msg('Tambah Cerita Alam')}</button>
+              ${loggedIn ? html`
+                <button id="nav-dashboard" class="btn btn-outline-light active">${msg('Dashboard')}</button>
+                <button id="nav-add" class="btn btn-light">${msg('Tambah Cerita Alam')}</button>
+              ` : ""}
               <locale-picker></locale-picker>
+              ${loggedIn ? html`
+                <span class="text-light me-2 d-none d-md-inline">${userName ? `👤 ${userName}` : ""}</span>
+                <button id="logout-btn" class="btn btn-outline-light" title="Logout">
+                  <i class="fa fa-sign-out-alt"></i> ${msg('Logout')}</button>
+              ` : ""}
             </div>
           </div>
         </div>
       </nav>
     `;
+  }
+
+  firstUpdated() {
+    const btn = this.querySelector("#logout-btn");
+    if (btn) {
+      btn.addEventListener("click", () => {
+        localStorage.removeItem("access_token");
+        localStorage.removeItem("user_name");
+        window.location.hash = "login";
+        window.location.reload();
+      });
+    }
   }
 }
 customElements.define('navbar-app', NavbarApp);
