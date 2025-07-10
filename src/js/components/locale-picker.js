@@ -36,10 +36,9 @@ class LocalePicker extends LitElement {
     `;
   }
 
-async _onChange(e) {
-  await setLocale(e.target.value);
-  window.dispatchEvent(new CustomEvent("locale-changed"));
-}
-
+  async _onChange(e) {
+    await setLocale(e.target.value);
+    window.dispatchEvent(new CustomEvent("locale-changed"));
+  }
 }
 customElements.define("locale-picker", LocalePicker);

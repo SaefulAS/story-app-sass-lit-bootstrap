@@ -1,0 +1,15 @@
+# Build output
+node_modules/
+dist/
+build/
+public/
+
+# Webpack configs
+webpack.dev.js
+webpack.common.js
+webpack.prod.js
+
+README.md
+package.json
+package-lock.json
+lit-localize.json

@@ -45,9 +45,7 @@ class AddStoryForm extends LitElement {
           <div class="invalid-feedback">${msg("Foto wajib diunggah!")}</div>
         </div>
         <div class="mb-3">
-          <label for="description" class="form-label"
-            >${msg("Deskripsi")}</label
-          >
+          <label for="description" class="form-label">${msg("Deskripsi")}</label>
           <textarea
             name="description"
             id="description"
@@ -58,9 +56,7 @@ class AddStoryForm extends LitElement {
           ></textarea>
           <div class="invalid-feedback">${msg("Deskripsi wajib diisi!")}</div>
         </div>
-        <button type="submit" class="btn btn-primary w-100 mt-3">
-          ${msg("Tambah Story")}
-        </button>
+        <button type="submit" class="btn btn-primary w-100 mt-3">${msg("Tambah Story")}</button>
       </form>
     `;
   }
