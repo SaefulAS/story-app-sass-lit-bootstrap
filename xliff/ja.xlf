@@ -14,14 +14,6 @@
   <source>Nama wajib diisi!</source>
   <target>名前は必須です！</target>
 </trans-unit>
-<trans-unit id="se5a66d3911fe2c20">
-  <source>URL Foto</source>
-  <target>写真のURL</target>
-</trans-unit>
-<trans-unit id="s3be56a484f57e60c">
-  <source>URL wajib diisi!</source>
-  <target>URLは必須です！</target>
-</trans-unit>
 <trans-unit id="s772ce5f935d58e37">
   <source>Deskripsi</source>
   <target>説明</target>
@@ -57,6 +49,102 @@
 <trans-unit id="saca1bb9c1da8e7da">
   <source>Tambah Cerita</source>
   <target>ストーリーを追加</target>
+</trans-unit>
+<trans-unit id="s229fb4df9ecf3ed1">
+  <source>Keluar</source>
+  <target>ログアウト</target>
+</trans-unit>
+<trans-unit id="s07bef2850db005d7">
+  <source>Foto</source>
+  <target>写真</target>
+</trans-unit>
+<trans-unit id="sd9b916fec18a99f0">
+  <source>Foto wajib diunggah!</source>
+  <target>写真のアップロードが必要です！</target>
+</trans-unit>
+<trans-unit id="s061750e81965c00e">
+  <source>Menambah...</source>
+  <target>追加中...</target>
+</trans-unit>
+<trans-unit id="sc8da3cc71de63832">
+  <source>Login</source>
+  <target>ログイン</target>
+</trans-unit>
+<trans-unit id="sd1f44f1a8bc20e67">
+  <source>Email</source>
+  <target>メールアドレス</target>
+</trans-unit>
+<trans-unit id="sd2750cc47ffb8be6">
+  <source>Masukkan email</source>
+  <target>メールアドレスを入力してください</target>
+</trans-unit>
+<trans-unit id="sd4637c9d6d59a9af">
+  <source>Email wajib diisi!</source>
+  <target>メールアドレスは必須です！</target>
+</trans-unit>
+<trans-unit id="sf6e1665c7022a1f8">
+  <source>Password</source>
+  <target>パスワード</target>
+</trans-unit>
+<trans-unit id="sd4a6ea86e79e65e3">
+  <source>Password minimal 8 karakter!</source>
+  <target>パスワードは8文字以上で入力してください！</target>
+</trans-unit>
+<trans-unit id="s7ae24e2336894d23">
+  <source>Belum punya akun?</source>
+  <target>アカウントをお持ちではありませんか？</target>
+</trans-unit>
+<trans-unit id="s2c15b9b13a3e2a80">
+  <source>Register</source>
+  <target>登録</target>
+</trans-unit>
+<trans-unit id="s2e2a664876251960">
+  <source>Login...</source>
+  <target>ログイン中...</target>
+</trans-unit>
+<trans-unit id="s785711f3828f7627">
+  <source>Login berhasil!</source>
+  <target>ログイン成功！</target>
+</trans-unit>
+<trans-unit id="s1d239ad171d5d52e">
+  <source>Login gagal</source>
+  <target>ログインに失敗しました</target>
+</trans-unit>
+<trans-unit id="sfe4a5fcd9ce0a6ae">
+  <source>Nama lengkap</source>
+  <target>氏名</target>
+</trans-unit>
+<trans-unit id="s4b2fd4e445d86fe8">
+  <source>Email aktif</source>
+  <target>有効なメールアドレス</target>
+</trans-unit>
+<trans-unit id="s7c589da18f8a1330">
+  <source>Password minimal 8 karakter</source>
+  <target>パスワードは8文字以上</target>
+</trans-unit>
+<trans-unit id="s3cf0c263cd2dcba3">
+  <source>Sudah punya akun?</source>
+  <target>すでにアカウントをお持ちですか？</target>
+</trans-unit>
+<trans-unit id="scf73f3eed0739386">
+  <source>Register...</source>
+  <target>登録中...</target>
+</trans-unit>
+<trans-unit id="s6521e06fa3e010a3">
+  <source>Register berhasil! Silakan login.</source>
+  <target>登録が完了しました！ログインしてください。</target>
+</trans-unit>
+<trans-unit id="s806562cf71a12474">
+  <source>Register gagal</source>
+  <target>登録に失敗しました</target>
+</trans-unit>
+<trans-unit id="s6d780316b47a2e0a">
+  <source>Sebelumnya</source>
+  <target>前へ</target>
+</trans-unit>
+<trans-unit id="s2b79d38e37850ead">
+  <source>Selanjutnya</source>
+  <target>次へ</target>
 </trans-unit>
 </body>
 </file>

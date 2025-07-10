@@ -4,7 +4,7 @@ const axiosInstance = axios.create({
   baseURL: "https://story-api.dicoding.dev/v1",
   headers: {
     "Content-Type": "application/json",
-  }
+  },
 });
 
 // Tambahkan interceptor untuk Authorization

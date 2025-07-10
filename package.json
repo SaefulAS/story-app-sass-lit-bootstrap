@@ -5,7 +5,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack serve --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js"
+    "build": "webpack --config webpack.prod.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write ."
   },
   "keywords": [],
   "author": "your_name <your_email>",
@@ -13,6 +16,7 @@
   "devDependencies": {
     "@babel/core": "^7.20.2",
     "@babel/preset-env": "^7.20.2",
+    "@eslint/js": "^9.30.1",
     "@lit/localize-tools": "^0.8.0",
     "autoprefixer": "^10.4.21",
     "babel-loader": "^9.1.0",
@@ -20,8 +24,13 @@
     "clean-webpack-plugin": "^4.0.0",
     "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.11.0",
+    "eslint": "^9.30.1",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-prettier": "^5.5.1",
+    "globals": "^16.3.0",
     "html-webpack-plugin": "^5.5.0",
     "postcss-loader": "^7.3.4",
+    "prettier": "^3.6.2",
     "sass": "^1.56.1",
     "sass-loader": "^13.3.3",
     "style-loader": "^3.3.4",

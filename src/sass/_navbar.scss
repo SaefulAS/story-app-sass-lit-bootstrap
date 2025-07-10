@@ -1,4 +1,4 @@
-@use 'variables';
+@use "variables";
 
 .navbar {
   background: variables.$primary;
@@ -37,7 +37,9 @@
     border-radius: 6px;
     cursor: pointer;
     font-weight: 500;
-    transition: background 0.18s, color 0.18s;
+    transition:
+      background 0.18s,
+      color 0.18s;
     &.active,
     &:hover {
       background: variables.$primary-dark;

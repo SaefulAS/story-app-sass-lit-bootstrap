@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "../sass/main.scss";
-import "../sass/custom-bootstrap.scss"
+import "../sass/custom-bootstrap.scss";
 
 import { msg } from "@lit/localize";
 
