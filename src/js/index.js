@@ -14,7 +14,7 @@ import "./components/footer-app.js";
 
 import renderDashboard from "./dashboard";
 import renderAddForm from "./storyForm";
-import renderLogin from "./auth/login";
+import renderLogin from "./auth/login.js";
 import renderRegister from "./auth/register";
 
 const main = document.querySelector("main");

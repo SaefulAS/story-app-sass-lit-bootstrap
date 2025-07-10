@@ -8,6 +8,13 @@ module.exports = merge(common, {
     static: {
       directory: path.resolve(__dirname, "dist"),
     },
+      proxy: {
+    '/v1': {
+      target: 'https://story-api.dicoding.dev',
+      changeOrigin: true,
+      secure: true
+    }
+  },
     client: {
       overlay: {
         errors: true,
