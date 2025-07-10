@@ -6,12 +6,18 @@ $navbar-padding-y: 1.4rem;
 $alert-border-radius: 10px;
 $modal-content-border-radius: 18px;
 
-.btn, .btn-primary, .btn-light, .btn-outline-light {
+.btn,
+.btn-primary,
+.btn-light,
+.btn-outline-light {
   border-radius: 12px !important;
   font-weight: 600;
   letter-spacing: 0.04em;
   box-shadow: 0 2px 6px rgba(57, 73, 171, 0.11);
-  transition: background .15s, color .15s, box-shadow .12s;
+  transition:
+    background 0.15s,
+    color 0.15s,
+    box-shadow 0.12s;
 }
 .btn-primary {
   background: linear-gradient(90deg, #3949ab 80%, #283593 100%);
@@ -24,9 +30,10 @@ $modal-content-border-radius: 18px;
   border: 2px solid #fff;
 }
 
-.card, .story-card {
+.card,
+.story-card {
   border-radius: 16px !important;
-  box-shadow: 0 4px 24px rgba(57,73,171,0.13) !important;
+  box-shadow: 0 4px 24px rgba(57, 73, 171, 0.13) !important;
   border: none;
 }
 .card-title {
@@ -36,7 +43,7 @@ $modal-content-border-radius: 18px;
 
 .navbar {
   background: linear-gradient(90deg, #3949ab 70%, #283593 100%) !important;
-  box-shadow: 0 2px 18px rgba(57,73,171,0.08);
+  box-shadow: 0 2px 18px rgba(57, 73, 171, 0.08);
   padding-top: 1.3rem;
   padding-bottom: 1.3rem;
 }
@@ -48,14 +55,16 @@ $modal-content-border-radius: 18px;
 .navbar .btn {
   margin-right: 0.5rem;
 }
-.navbar .btn.active, .navbar .btn:focus, .navbar .btn:hover {
+.navbar .btn.active,
+.navbar .btn:focus,
+.navbar .btn:hover {
   background: #283593 !important;
   color: #fff !important;
 }
 
 .modal-content {
   border-radius: 18px !important;
-  box-shadow: 0 8px 40px rgba(57,73,171,0.17);
+  box-shadow: 0 8px 40px rgba(57, 73, 171, 0.17);
   border: none;
 }
 .modal-header {
@@ -64,6 +73,14 @@ $modal-content-border-radius: 18px;
 .modal-title {
   color: #3949ab;
   font-weight: 600;
+}
+
+.pagination-container {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
 }
 
 .alert {
